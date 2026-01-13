@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+flask
+gunicorn
+werkzeug
+requests
+speedtest-cli
