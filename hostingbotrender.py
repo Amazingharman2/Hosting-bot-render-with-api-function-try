@@ -19,8 +19,8 @@ from werkzeug.middleware.dispatcher import DispatcherMiddleware
 
 # --- Configuration ---
 # Use environment variables for Render, fallback to hardcoded for local testing
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7553104853:AAFl4aTRvSbGrR0nkEHpfYBoCp6rpeSVwF4")
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "2052400282"))
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8935525753:AAFAk-sDaUN0E9oqIdy3p_IunrFlBIskOeU")
+ADMIN_ID l= int(os.environ.get("ADMIN_ID", "2052400282"))
 RENDER_EXTERNAL_URL = os.environ.get("RENDER_EXTERNAL_HOSTNAME", "localhost:5000")
 
 bot = telebot.TeleBot(BOT_TOKEN)
