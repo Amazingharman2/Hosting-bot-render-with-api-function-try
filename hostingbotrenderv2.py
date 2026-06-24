@@ -19,7 +19,7 @@ from werkzeug.middleware.dispatcher import DispatcherMiddleware
 
 # --- Configuration ---
 # Use environment variables for Render, fallback to hardcoded for local testing
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8935525753:AAFAk-sDaUN0E9oqIdy3p_IunrFlBIskOeU")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8935525753:AAFZn-3I8xZsn-_s228rD2XNfVo2-T6W0tU")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "2052400282"))
 RENDER_EXTERNAL_URL = os.environ.get("RENDER_EXTERNAL_HOSTNAME", "localhost:5000")
 
